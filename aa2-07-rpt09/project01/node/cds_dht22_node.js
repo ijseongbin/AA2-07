@@ -30,6 +30,8 @@ var temp = "";
 var lux = "";
 var mdata = [];
 var firstcommaidx = 0;
+var second = 0;
+var name = "";
 
 parser.on("data", (data) => {
   // call back when data is received
